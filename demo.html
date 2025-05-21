@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photo Collage Grid</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      padding: 20px;
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 200px;
+      gap: 10px;
+    }
+    .grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .tall { grid-row: span 2; }
+    .wide { grid-column: span 2; }
+    .big { grid-column: span 2; grid-row: span 2; }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <img src="sunset.jpg" alt="Rocky Beach" class="tall">
+    <img src="window.jpeg" alt="Soup Dish">
+    <img src="cafe.jpeg" alt="Buildings" class="wide">
+    <img src="chair.jpeg" alt="Modern Room" class="wide">
+    <img src="tea.jpeg" alt="Front Door" class="big">
+    <img src="coffee.jpeg" alt="Coastline">
+  </div>
+</body>
+</html>
