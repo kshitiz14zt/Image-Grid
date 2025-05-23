@@ -1,0 +1,27 @@
+.container{
+    background: #eee;
+    width: 700px;
+    margin: 70px 0 0 50px;
+    display: grid;
+    grid-template-columns: 250px 200px auto; /*we can use fr it will have half of the grid.*/
+    grid-template-rows: 150px 100px 100px ;
+    grid-gap: 20px;
+}
+.items1{
+    background: orangered;
+}
+.items2{
+    background: rgb(10, 197, 66);
+}
+.items3{
+    background: rgb(72, 0, 255);
+}
+.items4{
+    background: rgb(200, 255, 0);
+}
+.items5{
+    background: rgb(118, 2, 113);
+}
+.items6{
+    background: rgb(194, 197, 1);
+}
