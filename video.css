@@ -3,9 +3,11 @@
     width: 700px;
     margin: 70px 0 0 50px;
     display: grid;
-    grid-template-columns: 250px 200px auto; /*we can use fr it will have half of the grid.*/
+    grid-template-columns: repeat(2, 250px);/*we don't have to write same px again and again*/
     grid-template-rows: 150px 100px 100px ;
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
 }
 .items1{
     background: orangered;
