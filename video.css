@@ -6,8 +6,8 @@
     grid-template-columns: repeat(2, 250px);/*we don't have to write same px again and again*/
     grid-template-rows: 150px 100px 100px ;
     /* grid-gap: 20px; */
-    grid-row-gap: 30px;
-    grid-column-gap: 10px;
+    grid-row-gap: 30px;/*this is for row gap only*/
+    grid-column-gap: 10px;/*this is for column gap only*/
 }
 .items1{
     background: orangered;
