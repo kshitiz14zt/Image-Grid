@@ -11,6 +11,13 @@
 }
 .items1{
     background: orangered;
+    /* grid-row-start: 2;
+    /* grid-row-end: 3; *//*long method to adjust row start and end */
+    /* grid-row: 2/3; short method to adjust row start and end */
+    /* grid-column-start: 3;
+    grid-column-end: 4; *//*long method to adjust column start and end */
+    /* grid-column: 3/4;short method to adjust column start and end */
+    grid-area: 2/3/3/4;/*shortest method */
 }
 .items2{
     background: rgb(10, 197, 66);
@@ -26,4 +33,8 @@
 }
 .items6{
     background: rgb(194, 197, 1);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
