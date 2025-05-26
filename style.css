@@ -11,6 +11,8 @@
     }  
     .container{
      padding: 10px;
+     display: grid;
+     grid-template-rows: 1fr;
     }
     .imgTwo{
         height: 12em;

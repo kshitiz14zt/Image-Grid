@@ -7,7 +7,7 @@
     grid-template-rows: 150px 100px 100px ;
     /* grid-gap: 20px; */
     grid-row-gap: 30px;/*this is for row gap only*/
-    grid-column-gap: 10px;/*this is for column gap only*/
+    grid-column-gap: 30px;/*this is for column gap only*/
 }
 .items1{
     background: orangered;
@@ -37,4 +37,9 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
+}
+@media screen and (max-width:767px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
 }
