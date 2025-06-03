@@ -12,7 +12,6 @@
   background-image: url("rocks.jpg");
   background-size: contain;
 }
-
 .item-2 {
   background-image: url("chair.jpeg");
   background-size: cover;
@@ -42,7 +41,6 @@
       grid-row:1/2;
       background-size: cover;
   }
-
   .item-2 {
       grid-row: 2/3;
   }
@@ -60,7 +58,6 @@
   }
 } 
 @media screen and (min-width:768px) and (max-width:1023px){    
-  
   .parent {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(7, 200px);
@@ -69,7 +66,6 @@
       grid-row-start: 1;
       grid-row-end: 4;
   }
-
   .item-2 {
       grid-row-end: span 2;
       grid-column-start: 2;
@@ -78,7 +74,6 @@
       grid-row-end: span 3;
       grid-column-start: 2;
   }
-
   .item-4 {
       grid-row-start: 4;
       grid-row-end: 6;
@@ -103,7 +98,6 @@
       grid-row-start: 1;
       grid-row-end: 4;
   }
-
   .item-2 {
       grid-row-end: span 2;
       grid-column-start: 2;
@@ -118,8 +112,8 @@
       grid-row-end: 6;
   }
   .item-5{
-    grid-row-start: span 3;
-    grid-row-end: span 6;
+      grid-row-start: span 3;
+      grid-row-end: span 6;
   }
   .item-6{
       grid-row-end: span 2;
